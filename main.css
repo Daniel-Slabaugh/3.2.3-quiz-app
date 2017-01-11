@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+#intro {
+	margin: 0 20px;
+	text-align: center;
+	border: 1px solid grey;
+	padding: 20px;
+}
+
+
+.quiz > li {
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  padding: 20px; 
+  text-align: center;
+  list-style-type: none;
+  margin-right: 35px;
+}
+
+.choice {
+	list-style-type: upper-alpha;
+}
+
+.choice:hover {
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+.hidden {
+	display: none;
+}
