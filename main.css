@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
 #intro {
@@ -11,12 +11,12 @@
 
 
 .quiz > li {
-  margin-bottom: 20px;
-  border: 1px solid grey;
-  padding: 20px; 
-  text-align: center;
-  list-style-type: none;
-  margin-right: 35px;
+  	margin-bottom: 20px;
+  	border: 1px solid grey;
+  	padding: 20px; 
+  	text-align: center;
+  	list-style-type: none;
+  	margin-right: 35px;
 }
 
 .choice {
@@ -30,4 +30,13 @@
 
 .hidden {
 	display: none;
+}
+
+.score {
+	margin-bottom: 20px;
+  	border: 1px solid grey;
+  	padding: 20px; 
+  	text-align: center;
+  	list-style-type: none;
+  	margin-right: 35px;
 }
